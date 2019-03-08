@@ -21,34 +21,44 @@
         <![endif]-->
 
         <!-- ここにサイトやアプリのコンテンツ -->
-<header>
-    <h1>hnaritaのテストページ</h1>
-</header>
-<div id="branding">
-  <p>Simple Design.</p>
-</div>
-<nav>
-  <ul>
-    <li><a href="#">ナビ1</a></li>
-    <li><a href="#">ナビ2</a></li>
-    <li><a href="#">ナビ3</a></li>
-    <li><a href="#">ナビ4</a></li>
-  </ul>
-</nav>
-<section>
-<article>
-  <span class="date">2019/03/06</span>
-  <h2>ローディングCSS</h2>
-  <p>
-   サンプル1
-  </p>
-<a href="LoadingCSS/loading_sample.html" class="btn"> &gt;ローディングCSSのサンプル</a>
+        <header>
+            <h1>hnaritaのテストページ</h1>
+        </header>
+        <div id="branding">
+            <p>Simple Design.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">ナビ1</a></li>
+                <li><a href="#">ナビ2</a></li>
+                <li><a href="#">ナビ3</a></li>
+                <li><a href="#">ナビ4</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <span class="date">2019/03/06</span>
+                <h2>ローディングCSS</h2>
+                <p>サンプル1</p>
+                <a href="LoadingCSS/loading_sample.html" class="btn"> &gt;ローディングCSSのサンプル</a>
+            </article>
+        </section>
+        <style>
+.flash{
+  animation: flash 1s ease infinite alternate;
+}
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}
+</style>
 
-</article>
-</section>
-<footer>
-<address>Copyright(C)hnarita,Allright Reserved.</address>
-</footer>
+<span class="flash">FLUSH</span>
+        
+        <footer>
+            <address>Copyright(C)hnarita,Allright Reserved.</address>
+        </footer>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
